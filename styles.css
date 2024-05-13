@@ -16,7 +16,6 @@ body {
     place-content: center;
 
     font-family: "Kumbh Sans", sans-serif;
-
     background-color: var(--primary-dark-cyan);
 }
 
@@ -24,9 +23,6 @@ body {
     width: 330px;
     background-color: white;
     border-radius: 20px;
-
-    position: relative;
-    z-index: 1;
 }
 
 .card-content {
@@ -105,20 +101,6 @@ body {
 
 .description-text {
     margin-top: 0px;
-}
-
-#top-pattern {
-    position: absolute;
-    top: -90%;
-    left: -200%;
-    z-index: 0;
-}
-
-#bottom-pattern {
-    position: absolute;
-    top: 40%;
-    left: 40%;
-    z-index: 0;
 }
 
 /*
