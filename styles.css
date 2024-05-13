@@ -24,6 +24,9 @@ body {
     width: 330px;
     background-color: white;
     border-radius: 20px;
+
+    position: relative;
+    z-index: 1;
 }
 
 .card-content {
@@ -63,10 +66,6 @@ body {
     height: 100%;
 }
 
-.name-wrapper > p {
-    margin-bottom: 10px;
-}
-
 .stats-wrapper {
     display: flex;
     justify-content: space-around;
@@ -82,12 +81,17 @@ body {
 }
 
 .fonts2,
-.fonts3 {
+.fonts3,
+.fonts4 {
     color: var(--primary-dark-grayish-blue);
 }
 
 .fonts2 {
     font-size: 15px;
+}
+
+.fonts4 {
+    font-size: 18px;
 }
 
 .fonts3 {
@@ -101,6 +105,20 @@ body {
 
 .description-text {
     margin-top: 0px;
+}
+
+#top-pattern {
+    position: absolute;
+    top: -90%;
+    left: -200%;
+    z-index: 0;
+}
+
+#bottom-pattern {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    z-index: 0;
 }
 
 /*
